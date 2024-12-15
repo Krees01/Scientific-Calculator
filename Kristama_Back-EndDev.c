@@ -293,11 +293,9 @@ int main()
     }
     else if (pilihan == 9){
     printf("Terima kasih dan selamat tinggal :>\n");
-    break;
     }
     else if(pilihan > 9  || pilihan < 1){
     printf("Maaf tetapi pilihan anda tidak valid, silahkan mencoba lagi :<\n");
-    break;
     }
     return 0;
 }
